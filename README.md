@@ -1,7 +1,10 @@
 # triangle-checker
 simple customtkinter gui application made in python that takes 3 sides of a triangle and evaluates, if the triangle can be created by using these sides.
 
-![triangle checker image preview]()
+
+<img src="https://i.imgur.com/eciIwuU.png" alt="Triangle Checker Image Preview" width=350><img src="https://i.imgur.com/vcEtD9p.png" alt="Triangle Checker Image Preview 2" width=350>
+
+
 
 in order to use this application, it is important to 
 
