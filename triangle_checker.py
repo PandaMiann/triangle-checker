@@ -13,15 +13,15 @@ def CheckTriangle(a,b,c):
     triangle.remove(h)
 
     if h >= sum(triangle):
-        result_label.configure(text= "{} >= ({} + {})\n------------\n No, we can't!\n------------".format(h,side_b,side_c))
+        result_label.configure(text= "{} >= ({} + {})\n------------\n No, we can't!\n------------".format(h, triangle[0], triangle[1]))
     else:
-        result_label.configure(text= "{} <= ({} + {})\n------------\n Yes, we can!\n------------".format(h,side_b,side_c))
+        result_label.configure(text= "{} <= ({} + {})\n------------\n Yes, we can!\n------------".format(h, triangle[0], triangle[1]))
 
 customtkinter.set_appearance_mode("dark") #dark,light
 customtkinter.set_default_color_theme("dark-blue") #blue,green,dark-blue
 
 root = customtkinter.CTk()
-root.title("Project02 - Task 1")
+root.title("Triangle Checker")
 root.resizable(False,False)
 root.geometry("400x550")
 
