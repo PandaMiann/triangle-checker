@@ -25,16 +25,22 @@ However I recommend installing the package in a virtual enviroment:
 
 1.) Download **triangle_checker.py**, **requirements.txt** files and move them to a new project folder
 
-2.) Open **terminal** and create new virtual enviroment:
+2.) Open **terminal**, move to the project folder and create new virtual enviroment:
+<br>
+    ```cd #project folder path```
+<br>
     ```python -m venv #virtual_env_name```
     
 3.) Activate virtual enviroment
+<br>
     ```\#virtual_env_name\Scripts\activate.bat```
     
 4.) Install required packages from requirements.txt file:
+<br>
     ```python -m pip install -r requirements.txt```
     
 5.) Now you can execute the program:
+<br>
     ```python triangle_checker.py```
 <br><br>
 enjoy
